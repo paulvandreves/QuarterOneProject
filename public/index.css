@@ -67,14 +67,12 @@ table {
   display: inline-flex;
 }
 a.button {
-
 		background-color: #262526;
 		border:none;
 		color: rgb(162, 161, 148);
 		height: 35px;
 		font-size: 17px;
     font-family: 'Oxygen', sans-serif;
-
 }
 .tradeMark{
   flex: 7 300px;
@@ -88,15 +86,47 @@ a.button {
 .slogan{
   display: block;
 }
+
 .carousal{
-
+	position: center;
+	height: 300px;
+	width: 500px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+	margin-left: 30%;
+	padding: 5px;
+	object-fit: cover;
 }
-.slick-slider{
-
+.thead{
+	text-decoration: underline;
+}
+.zestimate{
+	background-color: #1a1a1a;
+	font-weight: bold;
+	font-family: 'Oxygen', sans-serif;
+	color: rgb(162, 161, 148);
+}
+.addEqiuty{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: column;
+	font-size: 17px;
+	font-family: 'Oxygen', sans-serif;
+	padding:20px;
+}
+.faq{
+	text-align: center;
+	color: black;
+	font-size:30px;
+	font-family: 'Oxygen', sans-serif;
+}
+h2{
+	font-weight: bold;
+	border: 10px;
 }
 .slick-arrow:before{
 	color: black;
-
 }
 .slick-arrow{
 	z-index: 100;
